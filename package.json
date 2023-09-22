@@ -1,0 +1,20 @@
+{
+  "name": "lae-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "start": "node dist/backend/main"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "turbo": "^1.10.14"
+  },
+  "workspaces": [
+    "apps/*"
+  ]
+}
